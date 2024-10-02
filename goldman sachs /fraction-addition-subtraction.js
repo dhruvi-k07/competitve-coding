@@ -23,6 +23,8 @@
 // The number of given fractions will be in the range [1, 10].
 // The numerator and denominator of the final result are guaranteed to be valid and in the range of 32-bit int.
 
+// Time Complexity = O(nlogn)
+// Space Complexity = O(n)
 
 function gcd(a,b) {
     while(b !== 0){
